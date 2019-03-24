@@ -1,0 +1,44 @@
+
+/*--------body*/
+
+
+
+body{
+
+}
+
+
+@media (max-width: 600px) {
+  section, h1, h2, h3, h4, h5, h6, p {
+     margin: 0 20px !important;
+  }
+}
+
+/*--------boton imagen*/
+
+.proyectos button {
+  border: none;
+  border-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*--------proyectos*/
+
+
+
+
+
+@media (max-width: 1300px) {
+  .proyectos {
+     width: 1265px;
+  }
+}
+
+@media (max-width: 800px) {
+  .proyectos {
+     width: 54vh;
+  }
+}
