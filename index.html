@@ -24,7 +24,7 @@
   <div class="container-fluid m-0 p-0">
   <div class="view jarallax" style="height: 100vh;">
     <!--<img class="jarallax-img" src="https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg" alt="">-->
-    <img class="jarallax-img" src="img/lightbox/fondovabecera2.png" alt="">
+    <img class="jarallax-img" src="img/fotos/fondovabecera2.png" alt="">
     <div class="mask ">
       <div class="container flex-center text-center">
         <div class="row mt-5">
@@ -50,7 +50,7 @@
   <div class="row">
     <div class="col-sm-12 col-md-12 m-0 p-0">
       <div button data-toggle="modal" data-target="#modalYT1" class="view overlay">
-        <img src="img/lightbox/trabajo1.png" class="img-fluid" alt="">
+        <img src="img/fotos/trabajo1_min.png" class="img-fluid" alt="">
         <div class="mask flex-center waves-effect waves-light rgba-black-strong">
           <h2 class="white-text font-weight-lighter">nombre de proyecto</h2>
         </div>
@@ -101,7 +101,7 @@
     <!-- proyecto 2 -->
     <div class="col-sm-12 col-md-4 m-0 p-0">
       <div button data-toggle="modal" data-target="#modalYT2" class="view overlay">
-        <img src="img/lightbox/trabajo2.png" class="img-fluid " alt="">
+        <img src="img/fotos/trabajo2_min.png" class="img-fluid " alt="">
         <div class="mask flex-center waves-effect waves-light rgba-black-strong">
           <h2 class="white-text font-weight-lighter">nombre de proyecto</h2>
         </div>
@@ -144,7 +144,7 @@
     <!-- proyecto 3 -->
     <div class="col-sm-12 col-md-4 m-0 p-0">
       <div button data-toggle="modal" data-target="#modalYT3" class="view overlay">
-        <img src="img/lightbox/trabajo3.png" class="img-fluid " alt="">
+        <img src="img/fotos/trabajo3_min.png" class="img-fluid " alt="">
         <div class="mask flex-center waves-effect waves-light rgba-black-strong">
           <h2 class="white-text font-weight-lighter">nombre de proyecto</h2>
         </div>
@@ -186,7 +186,7 @@
     <!-- proyecto 4 -->
     <div class="col-sm-12 col-md-4 m-0 p-0">
       <div button data-toggle="modal" data-target="#modalYT4" class="view overlay">
-        <img src="img/lightbox/trabajo4.png" class="img-fluid " alt="" style="width: 100%;">
+        <img src="img/fotos/trabajo4_min.png" class="img-fluid " alt="" style="width: 100%;">
         <div class="mask flex-center waves-effect waves-light rgba-black-strong">
           <h2 class="white-text font-weight-lighter">nombre de proyecto</h2>
         </div>
@@ -200,7 +200,7 @@
             <div class="modal-body mb-0 p-0">
               <div class="embed-responsive">
               <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U" allowfullscreen></iframe>-->
-              <img src="img/lightbox/trabajo4.png" class="img-fluid" alt="">
+              <img src="img/fotos/trabajo4.png" class="img-fluid" alt="">
               </div>
             </div>
             <!--Footer-->
@@ -232,7 +232,7 @@
     <!-- proyecto 5 -->
     <div class="col-sm-12 col-md-6 m-0 p-0">
       <div button data-toggle="modal" data-target="#modalYT5" class="view overlay">
-        <img src="img/lightbox/trabajo2.png" class="img-fluid " alt="">
+        <img src="img/fotos/trabajo2_min.png" class="img-fluid " alt="">
         <div class="mask flex-center waves-effect waves-light rgba-black-strong">
           <h2 class="white-text font-weight-lighter">nombre de proyecto</h2>
         </div>
@@ -246,7 +246,7 @@
             <div class="modal-body mb-0 p-0">
               <div class="embed-responsive">
               <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U" allowfullscreen></iframe>-->
-              <img src="img/lightbox/trabajo2.png" class="img-fluid" alt="">
+              <img src="img/fotos/trabajo2.png" class="img-fluid" alt="">
               </div>
             </div>
             <!--Footer-->
@@ -274,7 +274,7 @@
     <!-- proyecto 6-->
     <div class="col-sm-12 col-md-6 m-0 p-0">
       <div button data-toggle="modal" data-target="#modalYT6" class="view overlay">
-        <img src="img/lightbox/trabajo3.png" class="img-fluid " alt="">
+        <img src="img/fotos/trabajo3_min.png" class="img-fluid " alt="">
         <div class="mask flex-center waves-effect waves-light rgba-black-strong">
           <h2 class="white-text font-weight-lighter">nombre de proyecto</h2>
         </div>
@@ -288,7 +288,7 @@
             <div class="modal-body mb-0 p-0">
               <div class="embed-responsive">
               <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A3PDXmYoF5U" allowfullscreen></iframe>-->
-              <img src="img/lightbox/trabajo3.png" class="img-fluid" alt="">
+              <img src="img/fotos/trabajo3.png" class="img-fluid" alt="">
               </div>
             </div>
             <!--Footer-->
@@ -518,17 +518,6 @@ jarallax(document.querySelectorAll('.jarallax-keep-img'), {
 });
   </script>
 
-<script type="text/javascript">
-  const numCols = 3;
-const colHeights = Array(numCols).fill(0);
-const container = document.getElementById('masonry-with-columns');
-Array.from(container.children).forEach((child, i) => {
-  const order = i % numCols;
-  child.style.order = order;
-  colHeights[order] += parseFloat(child.clientHeight);
-})
-container.style.height = Math.max(...colHeights) + 'px';
-</script>
 
 
 </body>
