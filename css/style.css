@@ -23,22 +23,11 @@ body{
 }
 
 
-/*--------full
+/*--------full*/
 
 
 @media (max-width: 600px) {
   .proyectos{
      width: 360px !important;
-  }
-}
-
-*/
-
-@media (max-width: 600px) {
-  .proyectos{
-     width: 100% !important;
-  }
-  .footer{
-     width: 100% !important;
   }
 }
