@@ -1,8 +1,6 @@
 
 /*--------body*/
 
-
-
 body{
 
 }
@@ -25,20 +23,11 @@ body{
 }
 
 
-/*--------proyectos*/
+/*--------full*/
 
 
-
-
-
-@media (max-width: 1300px) {
-  .proyectos {
-     width: 1265px;
-  }
-}
-
-@media (max-width: 800px) {
-  .proyectos {
-     width: 54vh;
+@media (max-width: 600px) {
+  .proyectos{
+     width: 360px !important;
   }
 }
