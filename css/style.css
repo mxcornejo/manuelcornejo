@@ -31,3 +31,11 @@ body{
      width: 360px !important;
   }
 }
+
+
+/*--------home*/
+
+.fadeIn p {
+    display:inline;
+    
+}
