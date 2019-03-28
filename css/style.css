@@ -12,6 +12,12 @@ body{
   }
 }
 
+@media (max-width: 600px) {
+  .btn {
+     margin: 5px !important;
+  }
+}
+
 /*--------boton imagen*/
 
 .proyectos button {
