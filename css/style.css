@@ -39,3 +39,11 @@ body{
     display:inline;
     
 }
+
+/*--------proyectos*/
+
+.cajalogoempresa img{
+  max-width: 60%;
+  margin:0 auto;
+  margin-bottom: -4%;
+}
