@@ -36,6 +36,9 @@ body{
   .proyectos{
      width: 320px !important;
   }
+  .proyectos h2{
+     width: 60% !important;
+  }
 }
 
 
