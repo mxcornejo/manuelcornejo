@@ -1,44 +1,24 @@
-
-/*--------body*/
-
-
-
 body{
+background: linear-gradient(221deg, #29323c, #485563);
+background-size: 400% 400%;
 
+-webkit-animation: AnimationName 27s ease infinite;
+-moz-animation: AnimationName 27s ease infinite;
+animation: AnimationName 27s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
 }
-
-
-@media (max-width: 600px) {
-  section, h1, h2, h3, h4, h5, h6, p {
-     margin: 0 20px !important;
-  }
+@-moz-keyframes AnimationName {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
 }
-
-/*--------boton imagen*/
-
-.proyectos button {
-  border: none;
-  border-style: none;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
+@keyframes AnimationName { 
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
 }
-
-
-/*--------proyectos*/
-
-
-
-
-
-@media (max-width: 1300px) {
-  .proyectos {
-     width: 1265px;
-  }
-}
-
-@media (max-width: 800px) {
-  .proyectos {
-     width: 54vh;
-  }
 }
